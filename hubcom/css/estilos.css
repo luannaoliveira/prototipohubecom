@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+:root{
+--main-fontfamily: 'Inter', sans-serif;
+--sub-fontfamily: 'Inter', sans-serif;
+--main-blue: #4F7492;
+--dark-blue: #02DE97;
+--light-blue: #fcb42e;
+--white: #FFFF;
+--grey-100: #F2F8FF;
+--grey-200: #C8D3DE;
+--grey-300: #A8B4BF;
+--grey-400: #86929E;
+--grey-500: #64707D;
+--grey-600: #49525C;
+--grey-700: #2F343B;
+--grey-800: #14161A;
+--grey-900: #090A0D;
+}
+html,body{
+  scroll-behavior: smooth;
+}
+body{
+  line-height: 1;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+.drop{
+  background-color: #fcb42e;
+  padding: 8px 0;
+}
+.drop_menu{
+  max-width: 1216px;
+  margin:0 auto;
+  height: 100%;
+  flex-grow: 1;
+  align-items: center;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  font-family: var(--main-fontfamily);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  text-align: center;
+  word-wrap: break-word;
+  color: white;
+}
+p, span{
+  font-family: var(--sub-fontfamily);
+  font-size: 1em;
+  line-height: 1.75;
+  font-weight: 400;
+  letter-spacing: 0px;
+  word-wrap: break-word;
+}
+.telefone_now_2{
+color: white;
+font-weight: 600;
+align-items: center;
+}
+
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.ds_header_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 0;
+}
+.menu_suspenso{
+  max-width: 1216px;
+  margin: 0 auto;
+  height: 60%;
+  flex-grow: 1;
+
+}
+.menu_mobile{
+  display: none;
+}
+
+.language-options{
+  display: none;
+}
+.ds_link{
+  transition: 300ms ease-in-out;
+  color:#090A0D;
+}
+.ds_header_container nav a{
+  margin-left: 25px;
+}
+.ds_secondary_button{
+  font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+text-align: center;
+background: linear-gradient( to right, var(#2773a6) 50%, transparent 50% );
+background-size: 201% 100%;
+background-position: right bottom;
+color: var(--main-blue);
+border-radius: 8px;
+border: 1px solid var(--main-blue);
+padding: 16px 24px;
+transition: 300ms ease-in-out;
+}
+.ds_primary_button{
+  font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+text-align: center;
+background: #004c8c;
+background-size: 201% 100%;
+background-position: right bottom;
+color: var(--white);
+border-radius: 8px;
+padding: 16px 24px;
+transition: 300ms ease-in-out;
+}
+.ds_zero{
+
+  height: 60vh;
+min-height:500px;
+max-height: 720px;
+
+
+}
+.ds_container{
+  max-width: 100%;
+  background-image: url(../img/young-man-sitting-on-sofa-and-using-laptop-on-christmas.jpgaAZ);
+  background-size: 100%;
+background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 80vh;
+  display:flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+
+ 
+}
+.ds_zero_content_container{
+  max-width: 700px;
+  width: 50%;
+  margin-right: 30%;
+  
+  
+}
+.ds_content_container h1{
+  color: var(--grey-900);
+  
+}
+.text_1 {
+  font-family: var(--main-fontfamily);
+  font-size: 3.815em;
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  word-wrap: break-word;
+}
+.ds_highlight{
+  background-image: linear-gradient(to bottom, transparent, transparent 68%, var(--light-blue) 68%, var(--light-blue) 90%, transparent 90%,transparent);
+  background-size: 100%;
+}
+b, strong{
+  font-weight: 800;
+  
+}
+.ds_zero_content_container p{
+  font-size: 1.25em;
+  line-height: 1.5;
+  margin: 14px 0 64px;
+  color: var(--grey-700);
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+.ds_duvidas {
+  text-align: center;
+  background-color: var(--white);
+  padding: 80px 0 0 0px;
+}
+
+.ds_duvidas_container{
+  flex-direction: column;
+  max-width: 1216px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.ds_duvidas_container h2 {
+  margin-bottom: 16px;
+  color: var(--grey-900);
+  font-family: var(--main-fontfamily);
+    font-size: 2.052em;
+    line-height: 1.15;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    word-wrap: break-word;
+}
+
+.ds_duvidas_container > p{
+  font-family: var(--sub-fontfamily);
+    font-size: 0.9em;
+    line-height: 1.75;
+    font-weight: 400;
+    letter-spacing: 0px;
+    word-wrap: break-word;
+}
+.card_duvida{
+  margin:32px auto 24px;
+  text-align: center;
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.footer{
+  max-width: 1216px;
+  margin: 20px auto;
+  height: 100%;
+  display: flex;
+
+ 
+   
+}  
+.ds_footer_container {
+  display: flex;
+  justify-content: space-between;
+ 
+  align-items: center;
+}
+
+.ds_info_concact {
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 48px;
+  padding-right: 32px;
+  flex-grow: 1;
+
+}
+
+.ds_logo {
+  height: 36px;
+  padding-bottom: 8px;
+}
+.footer p {
+  margin-bottom: 8px;
+}
+.footer a {
+  margin-bottom: 8px;
+  color: var(--grey-500) !important;
+  text-align: center;
+  transition: 300ms ease-in-out;
+}
+.footer_nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.footer nav div {
+  padding-right: 36px;
+}
+
+.disclaimer {
+  border-top: 1px solid var(--grey-200);
+  padding: 30px 8px 0 8px;
+  min-width: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center!important;
+  max-width: 1216px;
+  margin: 0 auto;
+}
+.disclaimer a{
+  text-decoration: none;
+  font-family: var(--main-fontfamily);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  text-align: center;
+  word-wrap: break-word;
+  color: #6f4192;
+}
+.items {
+  display: block;
+  margin: 30px 0;
+  margin-left: 40px;
+}
+.item {
+  background-color: #fff;
+  float: left;
+  margin: 10px 20px 70px 0px;
+  width: 205px;
+  padding: 30px;
+  height: 290px;
+  align-items: center;
+  
+}
+.item img {
+  display: block;
+  margin: auto;
+}
+.item h2 {
+  font-size: 16px;
+  display: block;
+  margin: 0 0 10px 0;
+  padding: 0 0 5px 0;
+}
+
+span {
+  float: right;
+}
+.shopping-cart {
+  display: inline-block;
+  background: url('http://cdn1.iconfinder.com/data/icons/jigsoar-icons/24/_cart.png') no-repeat 0 0;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px 0 0;
+}
+.item p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  font-size: 80%;
+    font-weight: 400;
+}
+.item p em{
+  display: inline-block;
+    padding: 0.275rem 0.5em;
+    font-size: 75%;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.3125rem;
+    transition: all 0.2s ease-in-out;
+    background-color: #fcb42e;
+    color: white;
+}
+.container-vantagens {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.vantagens {
+  background-color: #F2F8FF;
+  width: 100%;
+  height: 500px;
+}
+.text-center .ds_duvidas_container{
+  padding-top: 30px;
+}
+.Benefits_1{
+  width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+
+    padding: 2rem 0px;
+    padding-top: 20px;
+    
+}
+
+.Benefits__Container_1 {
+width: 100%;
+    max-width: 1180px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    
+  }
+
+  .Benefits_Wrapper_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.Benefits_Item {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 20rem;
+  padding: 1rem 0px;
+  
+}
+
+.Benefits_IconWorld_5{
+  width: 27px;
+  margin-right: 1rem;
+}
+
+.Benefits__Content_2 {
+  width: 80%;
+}
+.Benefits_Title_1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(60, 60, 60);
+}
+.Benefits_Description {
+  color: rgb(111, 126, 135);
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.Benefits_IconWorld_6 {
+  width: 27px;
+  margin-right: 1rem;
+ 
+}
+.Benefits_IconWorld_7 {
+  width: 29px;
+  margin-right: 1rem;
+  
+}
